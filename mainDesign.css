@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
   overflow:hidden;
-  background: linear-gradient(to right, #2e637a , #519dbb);
+  background: linear-gradient(to right, #d1b7a1 , #a18167);
 }
 h1 {
   text-decoration-line: line-through;
-  color:rgba(66, 25, 143, 0.678);
+  color: #5c4c4e;
 }
 
 body {
@@ -18,9 +18,9 @@ body {
 	margin-top:20px;
 	height:80px;
 	text-align:left;
-	color:red;
+	color: #6166ad;
 	font-family:Luminary, cursive;
-	font-size:15px;
+	font-size:17px;
 	padding-left:20px;
 	padding-right:20px;
     
