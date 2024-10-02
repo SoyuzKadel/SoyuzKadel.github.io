@@ -7,12 +7,19 @@ body {
 }
 
 #linker {
+    margin-top: 25px;
+    margin-right: 92%;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline overline;
+    text-decoration-style: dotted dashed;
     opacity: 0;
-    transform: translateY(30%);
-    transition: opacity 1.5s ease, transform 1.5s;
+    transition: opacity 2.5s ease, transform 700ms ease-in;
+    position: relative;
+    display: block;
 }
 
 #linker.visible {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(4%);
 }
