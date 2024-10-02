@@ -4,9 +4,10 @@
   overflow:auto;
 }
 h1 {
-  text-shadow: 2px;
+  text-decoration-line: line-through;
   color: maroon;
 }
+
 body {
 	text-align:center;
 }
