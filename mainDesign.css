@@ -3,7 +3,10 @@
   background-color:#eee;
   overflow:auto;
 }
-
+#mainHeader {
+  text-shadow: 2px;
+  color: maroon;
+}
 body {
 	text-align:center;
 }
