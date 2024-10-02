@@ -1,3 +1,18 @@
 a {
     text-decoration: none;
 }
+
+body {
+    background: linear-gradient(to right ,#d1b7a1 , #a18167);
+}
+
+#linker {
+    opacity: 0;
+    transform: translateY(30%);
+    transition: opacity 1.5s ease, transform 1.5s;
+}
+
+#linker.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
