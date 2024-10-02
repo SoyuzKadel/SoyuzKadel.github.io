@@ -25,6 +25,7 @@ function p02Func() {
 
 function checkUncheck1(){
     if (document.getElementById("check1").checked==true) {
+        
       document.getElementById("flowchart").style.display="inline";
     }
     else {
