@@ -3,7 +3,7 @@
   background-color:#eee;
   overflow:auto;
 }
-#mainHeader {
+h1 {
   text-shadow: 2px;
   color: maroon;
 }
