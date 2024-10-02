@@ -1,17 +1,68 @@
+/* Main body inheritance styling */
 * {
   box-sizing: border-box;
   overflow:hidden;
   background: linear-gradient(to right, #d1b7a1 , #a18167);
 }
-h1 {
+
+
+
+/* Main Header Styling */
+#dropDownMenu {
+  font-family:'Times New Roman', Times, serif;
+  background-color: transparent;
   text-decoration-line: line-through;
   color: #5c4c4e;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  margin-left: 45%;
+  margin-right: 45%;
+  font-size: 45px;
+  transition: color 700ms, text-decoration-line 300ms, transform 2s;
+  position: relative;
 }
 
+
+/* Hover Main Header to change bg plus animation */
+#dropDownMenu:hover {
+  color: #6166ad;
+  text-decoration-line: overline;
+  background:scroll;
+  transform: translateX(10%);
+}
+
+
+#linkcolor {
+  color: #6e5558;
+}
+
+.dropDownMenu:hover .dropDownContent {
+  display: block;
+}
+
+#dropDownContent {
+  position: relative;
+  text-align: center;
+  margin-top: -27px;
+  margin-bottom: 12px;
+}
+
+
+
+
+
+/* body Centre Aligning */
 body {
 	text-align:center;
+  font-size: 23px;
 }
 
+
+
+
+
+/* Styling "Problem" section _DESCRIPTION_ */
 #problem {
     width: 90vw;
 	margin:auto;
@@ -23,14 +74,23 @@ body {
 	font-size:17px;
 	padding-left:20px;
 	padding-right:20px;
-    
 }
 
+
+
+
+
+/* Footer Styling */
 footer{
 	margin-top:20px;
 	text-align:center;
-	font-size:10px;
+	font-size: 20px;
 }
+
+
+
+
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   img {

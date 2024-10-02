@@ -13,7 +13,22 @@
 <body>
 
   <header>
-    <h1 > Project X </h1>
+
+
+<!-- Dropdown Main Header -->
+    <div id="dropDownMenu">Project X </div>
+
+
+<!-- Dropdown Content -->
+	<div id="dropDownContent">
+	<nav>
+		<a href="aboutProject.html" id="linkcolor">About Project</a>
+		<a href="aboutMe.html" id="linkcolor">About Me</a>
+	</nav>
+	</div>
+
+
+<!-- Problem Buttons 1 to 10 -->
 	<nav>
   	  <button onclick="p01Func()">Problem01</button>
 	  <button onclick="p02Func()">Problem02</button>
@@ -26,23 +41,40 @@
 	  <button onclick="p09Func()">Problem09</button>
 	  <button onclick="p10Func()">Problem10</button>
 	</nav>
+
+
   </header>
-  
+
+
+<!-- Problem Description -->
   <div id="problem" class="problem">
   </div>
+
+
+<!-- Design CheckMark and Function calling -->
   <div class="column1 design">
 	<input onclick="checkUncheck1()" id="check1" type="checkbox"/> Design
- 	<img id="flowchart" src="images/" alt="null" onclick="zoomOut()" ondblclick="zoomIn()"/>
+ 	<img id="flowchart" src="images/defaultReally/clickthatfirst.jpg" alt="null" onclick="zoomOut()" ondblclick="zoomIn()"/>
   </div>
+
+
+<!-- Solution 1 CheckMark and Function calling -->
   <div class="column2 jsSolution">
 	<input onclick="checkUncheck2()" id="check2" type="checkbox"/> JavaScript Solution
 	 <img id="js" src="null" alt="null" />
   </div>
+
+
+<!-- Solution 2 CheckMark and Function calling -->
   <div class="column3 otherSolution">
 	<input onclick="checkUncheck3()" id="check3" type="checkbox"/> Another Solution
 	<img id="another" src="null" alt="null" />
   </div>
 
+
+<!-- Footer/Copyright -->
   <footer>(c) Author of this web page: <span>Soyuz Kadel</span> </footer>
+
+
 </body>
 </html>
