@@ -2,9 +2,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: aliceblue;
+}
+
 body {
     background: linear-gradient(to right ,#d1b7a1 , #a18167);
 }
+
 
 
 /* Project X Title Animation + underline&overling */
