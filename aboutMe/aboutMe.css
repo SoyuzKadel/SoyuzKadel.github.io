@@ -6,6 +6,9 @@ body {
     background: linear-gradient(to right ,#d1b7a1 , #a18167);
 }
 
+
+/* Project X Title Animation + underline&overling */
+
 #linker {
     margin-top: 25px;
     margin-right: 80%;
@@ -23,3 +26,26 @@ body {
     opacity: 1;
     transform: translateX(4%);
 }
+
+/* Project X Button Animation Over */
+
+
+
+/* Menu Drop Down Button and Rotate/Darken */
+
+#menufirst {
+    transform: rotate(180);
+    margin-left: 5%;
+    display: block;
+    opacity: 0.5;
+    transition: transform 2s, opacity 2s;
+    color: #d1b7a1;
+    background-color: #a18167;
+}
+
+#menufirst:hover {
+    transform: rotate(180deg) scale(1.3);
+    opacity: 1;
+}
+
+/* Menu Drop Down Button and Rotate Over */
