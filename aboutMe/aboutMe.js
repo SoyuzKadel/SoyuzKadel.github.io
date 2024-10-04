@@ -9,12 +9,12 @@ window.onload = function() {
 
 
 //EventListener for the dropdownmenu "menuFirst"
-const hoverMenuFirst = document.getElementById("menufirst");
+const menuButton = document.getElementById("menufirst");
 
-hoverMenuFirst.addEventListener('mouseenter', function() {
+menuButton.addEventListener('mouseenter', function() {
     document.getElementById("aboutMe2").style.display = "block";
 } );
 
-hoverMenuFirst.addEventListener('mouseleave', function() {
+menuButton.addEventListener('mouseleave', function() {
     document.getElementById("aboutMe2").style.display = "none";
 } );
