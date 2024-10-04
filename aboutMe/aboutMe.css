@@ -1,6 +1,3 @@
-@charset "UTF-8";
-
-
 /*General body behaviour*/
 * {
     overflow:inherit;
@@ -66,8 +63,3 @@ body {
 
 
 
-
-/**/
-#aboutMe2 {
-    display: none;
-}
