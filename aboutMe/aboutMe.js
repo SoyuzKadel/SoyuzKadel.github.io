@@ -8,13 +8,9 @@ window.onload = function() {
 
 
 
-//EventListener for the dropdownmenu "menuFirst"
-const menuButton = document.getElementById("menufirst");
+//Menu Drop Down OnClick
 
-menuButton.addEventListener('mouseenter', function() {
-    document.getElementById("aboutMe2").style.display = "block";
-} );
+function menuOnClick() {
+    document.getElementById("aboutMe2").style.display="inline";
 
-menuButton.addEventListener('mouseleave', function() {
-    document.getElementById("aboutMe2").style.display = "none";
-} );
+}
