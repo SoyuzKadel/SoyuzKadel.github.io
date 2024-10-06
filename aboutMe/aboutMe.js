@@ -15,8 +15,7 @@ function menuOnClick2() {
         document.getElementById("menufirst").removeAttribute("onmouseleave");
         document.getElementById("aboutMe2").style.display="inline";
     }else {
-        document.getElementById("menufirst").setAttribute(onmouseleave, mouseLeaves());
-        document.getElementById("aboutMe2").style.display="none";
+        document.getElementById("menufirst").setAttribute("onmouseleave", "mouseLeaves()");
     }
     x = x + 1;
 }
