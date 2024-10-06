@@ -7,6 +7,11 @@ a {
     text-decoration: none;
 }
 
+
+a.elementsOfMenu {
+    color: #a18167;
+}
+
 a:hover {
     color: aliceblue;
 }
@@ -60,3 +65,4 @@ body {
     border-radius: 30px 15px;
 }
 /*Menu Drop Down Button and Rotate/Darkenw  OVER    */
+
