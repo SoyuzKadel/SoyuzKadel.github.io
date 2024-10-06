@@ -15,17 +15,16 @@ function menuOnClick2() {
         document.getElementById("menufirst").removeAttribute("onmouseleave");
         document.getElementById("aboutMe2").style.display="inline";
     }else {
-        document.getElementById("menufirst").setAttribute(onmouseleave, menuOnClick1());
+        document.getElementById("menufirst").setAttribute(onmouseleave, mouseLeaves());
         document.getElementById("aboutMe2").style.display="none";
     }
     x = x + 1;
 }
-function menuOnClick1() {
+function mouseLeaves() {
     document.getElementById("aboutMe2").style.display="none";
-    document.getElementById("aboutMe2").classList.add("menuOnClick1");
 }
 
 
-function menuOnClick() {
+function mouseEnters() {
     document.getElementById("aboutMe2").style.display="inline";
 }
