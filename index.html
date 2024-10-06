@@ -1,79 +1,47 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Project X</title>
+        <link rel="stylesheet" type="text/css" href="aboutMe.css" title="style">
+        <script src="aboutMe.js"></script>
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    </head>
 
 
-<html lang="En">
-<head>
-  <meta charset="UTF-8">
-  <title> Project X </title>
-  <link rel="stylesheet" type="text/css" href="mainDesign.css" title="style">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="mainIndex.js"></script>
-  
-</head>
-<body>
-
-  <header>
-  </header>
 
 
-<!-- Dropdown Main Header -->
-    <div id="dropDownMenu">Project X </div>
+    <body>
+
+        <header>
 
 
-<!-- Dropdown Content -->
-	<div id="dropDownContent">
-	<nav>
-		<a href="aboutProject.html" id="linkcolor">About Project</a>
-		<a href="/aboutMe/" id="linkcolor">About Me</a>
-	</nav>
-	</div>
-<!-- Problem Buttons 1 to 10 -->
-	<nav>
-  	  <button onclick="p01Func()">Problem01</button>
-	  <button onclick="p02Func()">Problem02</button>
-	  <button onclick="p03Func()">Problem03</button>
-	  <button onclick="p04Func()">Problem04</button>
-	  <button onclick="p05Func()">Problem05</button>
-	  <button onclick="p06Func()">Problem06</button>
-	  <button onclick="p07Func()">Problem07</button>
-	  <button onclick="p08Func()">Problem08</button>
-	  <button onclick="p09Func()">Problem09</button>
-	  <button onclick="p10Func()">Problem10</button>
-	</nav>
+            
+            <!--Project X TOP LINK-->
+                <a href="/" id="linker" >Project X</a>
 
 
-  </header>
+
+            
+            <!--First Menu Button-->
+            <button id="menufirst" onmouseenter="mouseEnters(this)" onmouseleave="mouseLeaves(this)" onclick="menuOnClick2(this)">^</button>
 
 
-<!-- Problem Description -->
-  <div id="problem" class="problem">
-  </div>
+
+            
+            <!--Inner Elements of Drop Down Menu-->
+            <ul id="aboutMe2" style="display: none;">
+                    <li><a href="/aboutMe/" class="elementsOfMenu">About Me</a>
+                    <li><a href="/" class="elementsOfMenu">Socials</a></li>
+            </ul>
 
 
-<!-- Design CheckMark and Function calling -->
-  <div class="column1 design">
-	<input onclick="checkUncheck1()" id="check1" type="checkbox"/> Design
- 	<img id="flowchart" src="images/defaultReally/clickthatfirst.jpg" alt="null" onclick="zoomOut()" ondblclick="zoomIn()"/>
-  </div>
 
 
-<!-- Solution 1 CheckMark and Function calling -->
-  <div class="column2 jsSolution">
-	<input onclick="checkUncheck2()" id="check2" type="checkbox"/> JavaScript Solution
-	 <img id="js" src="null" alt="null" />
-  </div>
+        </header>
 
+    </body>
 
-<!-- Solution 2 CheckMark and Function calling -->
-  <div class="column3 otherSolution">
-	<input onclick="checkUncheck3()" id="check3" type="checkbox"/> Another Solution
-	<img id="another" src="null" alt="null" />
-  </div>
-
-
-<!-- Footer/Copyright -->
-  <footer>(c) Author of this web page: <span>Soyuz Kadel</span> </footer>
-
-
-</body>
 </html>
