@@ -16,6 +16,7 @@ function menuOnClick2() {
         document.getElementById("aboutMe2").style.display="inline";
     }else {
         document.getElementById("menufirst").setAttribute("onmouseleave", "mouseLeaves()");
+        document.getElementById("aboutMe2").style.display="none";
     }
     x = x + 1;
 }
